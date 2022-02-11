@@ -6,30 +6,35 @@
 		"en"			"File not found"
 		"es"			"Archivo no encontrado"
 		"ru"			"Файл не найден"
+		"chi"			"文件未找到"
 	}
 	"Start Log"
 	{
 		"en"			"Start logging"
 		"es"			"Comienzo de Registro"
 		"ru"			"Лог начат"
+		"chi"			"开始记录日志"
 	}
 	"End Log"
 	{
 		"en"			"End logging"
 		"es"			"Fin de Registro"
 		"ru"			"Лог закончен"
+		"chi"			"结束记录日志"
 	}
 	"File Not Created"
 	{
 		"en"			"Cannot create log file"
 		"es"			"No se puede crear archivo de registro"
 		"ru"			"Невозможно создать лог файл"
+		"chi"			"未能建立日志文件"
 	}
 	"Network"
 	{
 		"en"			"local network"
 		"es"			"darkred Local"
 		"ru"			"☺не найдена. ♦(локальная сеть)"
+		"chi"			"本地网络"
 	}
 	"Connected_Auth_1"
 	{
@@ -37,6 +42,7 @@
 		"en"		" {green}{1}{DEFAULT}({green}{2}{DEFAULT}) has connect"
 		"es"		" {green}{1}{DEFAULT}({green}{2}{DEFAULT}) has connect"
 		"ru"		" {green}{1}{DEFAULT}({green}{2}{DEFAULT}) has connect"
+		"chi"		" {green}{1}{DEFAULT}({green}{2}{DEFAULT}) 进入服务器"
 	}
 	"Connected_Auth_2"
 	{
@@ -44,6 +50,7 @@
 		"en"		" {green}{1} {DEFAULT}({green}{3}{DEFAULT}) has connect {green}{2}"
 		"es"		" {green}{1} {DEFAULT}({green}{3}{DEFAULT}) has connect {green}{2}"
 		"ru"		" {green}{1} {DEFAULT}({green}{3}{DEFAULT}) has connect {green}{2}"
+		"chi"		" {green}{1} {DEFAULT}({green}{3}{DEFAULT}) 进入服务器 , 来自{green}{2}"
 	}
 	"Connected_Ip_1"
 	{
@@ -51,6 +58,7 @@
 		"en"		" {green}{1} {DEFAULT}({green}{2}{DEFAULT}) has connect"
 		"es"		" {green}{1} {DEFAULT}({green}{2}{DEFAULT}) has connect"
 		"ru"		" {green}{1} {DEFAULT}({green}{2}{DEFAULT}) has connect"
+		"chi"		" {green}{1} {DEFAULT}({green}{2}{DEFAULT}) 进入服务器"
 	}
 	"Connected_Ip_2"
 	{
@@ -58,6 +66,7 @@
 		"en"		" {green}{1} {DEFAULT}({green}{3}{DEFAULT}) has connect {green}{2}"
 		"es"		" {green}{1} {DEFAULT}({green}{3}{DEFAULT}) has connect {green}{2}"
 		"ru"		" {green}{1} {DEFAULT}({green}{3}{DEFAULT}) has connect {green}{2}"
+		"chi"		" {green}{1} {DEFAULT}({green}{3}{DEFAULT}) 进入服务器 , 来自 {green}{2}"
 	}
 	"Connected_1"
 	{
@@ -65,6 +74,7 @@
 		"en"		" {green}{1} {DEFAULT}({green}{3}{DEFAULT}) has connect {green}{2}"
 		"es"		" {green}{1} {DEFAULT}({green}{3}{DEFAULT}) has connect {green}{2}"
 		"ru"		" {green}{1} {DEFAULT}({green}{3}{DEFAULT}) has connect {green}{2}"
+		"chi"		" {green}{1} {DEFAULT}({green}{3}{DEFAULT}) 进入服务器 , 来自 {green}{2}"
 	}
 	"Connected_2"
 	{
@@ -72,20 +82,23 @@
 		"en"		" {green}{1} {DEFAULT}({green}{4}{DEFAULT}) has connect {green}{2} {DEFAULT}({green}{3}{DEFAULT})"
 		"es"		" {green}{1} {DEFAULT}({green}{4}{DEFAULT}) has connect {green}{2} {DEFAULT}({green}{3}{DEFAULT})"
 		"ru"		" {green}{1} {DEFAULT}({green}{4}{DEFAULT}) has connect {green}{2} {DEFAULT}({green}{3}{DEFAULT})"
+		"chi"		" {green}{1} {DEFAULT}({green}{4}{DEFAULT}) 进入服务器 , 来自 {green}{2} {DEFAULT}({green}{3}{DEFAULT})"
 	}
 	"Connected_Country_1"
 	{
 		"#format"	"{1:s}" // name
-		"en"		" {green}{1} {DEFAULT}has connect"
-		"es"		" {green}{1} {DEFAULT}has connect"
-		"ru"		" {green}{1} {DEFAULT}has connect"
+		"en"		" {green}{1} {DEFAULT} has connect"
+		"es"		" {green}{1} {DEFAULT} has connect"
+		"ru"		" {green}{1} {DEFAULT} has connect"
+		"chi"		" {green}{1} {DEFAULT} 进入服务器"
 	}
 	"Connected_Country_2"
 	{
 		"#format"	"{1:s},{2:s}" // name, country
-		"en"		" {green}{1} {DEFAULT}has connect {green}{2}"
-		"es"		" {green}{1} {DEFAULT}has connect {green}{2}"
-		"ru"		" {green}{1} {DEFAULT}has connect {green}{2}"
+		"en"		" {green}{1} {DEFAULT} has connect {green}{2}"
+		"es"		" {green}{1} {DEFAULT} has connect {green}{2}"
+		"ru"		" {green}{1} {DEFAULT} has connect {green}{2}"
+		"chi"		" {green}{1} {DEFAULT} 进入服务器 , 来自 {green}{2}"
 	}
 	"Disconnected_Auth_1"
 	{
@@ -93,6 +106,7 @@
 		"en"		" {darkred}{1}{DEFAULT}({darkred}{2}{DEFAULT}) has disconnect"
 		"es"		" {darkred}{1}{DEFAULT}({darkred}{2}{DEFAULT}) has disconnect"
 		"ru"		" {darkred}{1}{DEFAULT}({darkred}{2}{DEFAULT}) has disconnect"
+		"chi"		" {darkred}{1}{DEFAULT}({darkred}{2}{DEFAULT}) 离开服务器"
 	}
 	"Disconnected_Auth_2"
 	{
@@ -100,20 +114,23 @@
 		"en"		" {darkred}{1} {DEFAULT}({darkred}{3}{DEFAULT}) has disconnect {darkred}{2}"
 		"es"		" {darkred}{1} {DEFAULT}({darkred}{3}{DEFAULT}) has disconnect {darkred}{2}"
 		"ru"		" {darkred}{1} {DEFAULT}({darkred}{3}{DEFAULT}) has disconnect {darkred}{2}"
+		"chi"		" {darkred}{1} {DEFAULT}({darkred}{3}{DEFAULT}) 离开服务器 , 来自 {darkred}{2}"
 	}
 	"Disconnected_Country_1"
 	{
 		"#format"	"{1:s}" // name
-		"en"		" {darkred}{1} {DEFAULT}has disconnect"
-		"es"		" {darkred}{1} {DEFAULT}has disconnect"
-		"ru"		" {darkred}{1} {DEFAULT}has disconnect"
+		"en"		" {darkred}{1} {DEFAULT} has disconnect"
+		"es"		" {darkred}{1} {DEFAULT} has disconnect"
+		"ru"		" {darkred}{1} {DEFAULT} has disconnect"
+		"chi"		" {darkred}{1} {DEFAULT} 离开服务器"
 	}
 	"Disconnected_Country_2"
 	{
 		"#format"	"{1:s},{2:s}" // name, country
-		"en"		" {darkred}{1} {DEFAULT}has disconnect {darkred}{2}"
-		"es"		" {darkred}{1} {DEFAULT}has disconnect {darkred}{2}"
-		"ru"		" {darkred}{1} {DEFAULT}has disconnect {darkred}{2}"
+		"en"		" {darkred}{1} {DEFAULT} has disconnect {darkred}{2}"
+		"es"		" {darkred}{1} {DEFAULT} has disconnect {darkred}{2}"
+		"ru"		" {darkred}{1} {DEFAULT} has disconnect {darkred}{2}"
+		"chi"		" {darkred}{1} {DEFAULT} 离开服务器 , 来自{darkred}{2}"
 	}
 	"Disconnected_Ip_1"
 	{
@@ -121,6 +138,7 @@
 		"en"		" {darkred}{1} {DEFAULT}({darkred}{2}{DEFAULT}) has disconnect"
 		"es"		" {darkred}{1} {DEFAULT}({darkred}{2}{DEFAULT}) has disconnect"
 		"ru"		" {darkred}{1} {DEFAULT}({darkred}{2}{DEFAULT}) has disconnect"
+		"chi"		" {darkred}{1} {DEFAULT}({darkred}{2}{DEFAULT}) 离开服务器"
 	}
 	"Disconnected_Ip_2"
 	{
@@ -128,6 +146,7 @@
 		"en"		" {darkred}{1} {DEFAULT}({darkred}{3}{DEFAULT}) has disconnect {darkred}{2}"
 		"es"		" {darkred}{1} {DEFAULT}({darkred}{3}{DEFAULT}) has disconnect {darkred}{2}"
 		"ru"		" {darkred}{1} {DEFAULT}({darkred}{3}{DEFAULT}) has disconnect {darkred}{2}"
+		"chi"		" {darkred}{1} {DEFAULT}({darkred}{3}{DEFAULT}) 离开服务器 , 来自 {darkred}{2}"
 	}
 	"Disconnected_1"
 	{
@@ -135,6 +154,7 @@
 		"en"		" {darkred}{1} {DEFAULT}({darkred}{3}{DEFAULT}) has disconnect {darkred}{2}"
 		"es"		" {darkred}{1} {DEFAULT}({darkred}{3}{DEFAULT}) has disconnect {darkred}{2}"
 		"ru"		" {darkred}{1} {DEFAULT}({darkred}{3}{DEFAULT}) has disconnect {darkred}{2}"
+		"chi"		" {darkred}{1} {DEFAULT}({darkred}{3}{DEFAULT}) 离开服务器 , 来自 {darkred}{2}"
 	}
 	"Disconnected_2"
 	{
@@ -142,5 +162,6 @@
 		"en"		" {darkred}{1} {DEFAULT}({darkred}{4}{DEFAULT}) has disconnect {darkred}{2} {DEFAULT}({darkred}{3}{DEFAULT})"
 		"es"		" {darkred}{1} {DEFAULT}({darkred}{4}{DEFAULT}) has disconnect {darkred}{2} {DEFAULT}({darkred}{3}{DEFAULT})"
 		"ru"		" {darkred}{1} {DEFAULT}({darkred}{4}{DEFAULT}) has disconnect {darkred}{2} {DEFAULT}({darkred}{3}{DEFAULT})"
+		"chi"		" {darkred}{1} {DEFAULT}({darkred}{4}{DEFAULT}) 离开服务器 , 来自 {darkred}{2} {DEFAULT}({darkred}{3}{DEFAULT})"
 	}
 }
